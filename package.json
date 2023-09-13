@@ -1,0 +1,27 @@
+{
+  "name": "m12a1-deployment-and-scaling-hutariq",
+  "version": "1.0.0",
+  "description": "M12A1 - Deployment and Scaling - task 2",
+  "main": "build/app.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
