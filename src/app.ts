@@ -3,7 +3,7 @@ import express, { Request, Response } from 'express';
 import * as http from 'http';
 import * as path from 'path';
 
-const PORT = 8081;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 const server = http.createServer(app);
