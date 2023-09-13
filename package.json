@@ -7,7 +7,7 @@
     "start:build": "tsc -w",
     "start:run": "nodemon build/app.js",
     "start": "concurrently npm:start:*",
-    "build": "tsc && node build/app.js"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
